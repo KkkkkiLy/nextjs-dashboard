@@ -1,2 +1,2 @@
 # nextjs-dashboard
-my first nextjs program
+for myself
