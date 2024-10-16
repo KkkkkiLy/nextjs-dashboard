@@ -3,6 +3,8 @@ import NavLinks from "@/app/ui/dashboard/nav-links";
 import AcmeLogo from "@/app/ui/acme-logo";
 import { PowerIcon } from "@heroicons/react/24/outline";
 
+export const experimental_ppr = true; // 如果你的dashboard存在静态和动态的渲染，可以尝试ppr进行性能优化，将需要加载的数据异步处理
+
 export default function SideNav() {
   return (
     <div className="flex h-full flex-col px-3 py-4 md:px-2">
