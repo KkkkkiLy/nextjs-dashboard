@@ -16,8 +16,9 @@ import {
   LatestInvoicesSkeleton,
   CardsSkeleton,
 } from "@/app/ui/skeletons";
+import React, { useState } from "react";
 
-export default async function Page() {
+export default function Page() {
   // const revenue = await fetchRevenue();
   // const latestInvoices = await fetchLatestInvoices();
   // const {
